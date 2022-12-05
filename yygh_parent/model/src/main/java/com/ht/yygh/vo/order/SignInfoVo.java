@@ -1,6 +1,6 @@
 package com.ht.yygh.vo.order;
 
-import com.atguigu.yygh.model.base.BaseMongoEntity;
+
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

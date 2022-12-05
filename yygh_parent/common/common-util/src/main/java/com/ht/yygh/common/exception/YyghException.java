@@ -1,6 +1,7 @@
 package com.ht.yygh.common.exception;
 
-import com.atguigu.yygh.common.result.ResultCodeEnum;
+
+import com.ht.yygh.common.result.ResultCodeEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

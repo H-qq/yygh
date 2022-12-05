@@ -15,7 +15,6 @@
     </properties>
     <artifactId>service-util</artifactId>
     <version>1.0</version>
-
     <packaging>jar</packaging>
     <name>service-util</name>
     <description>service-util</description>

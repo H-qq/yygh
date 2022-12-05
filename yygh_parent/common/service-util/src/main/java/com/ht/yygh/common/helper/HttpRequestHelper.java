@@ -1,8 +1,9 @@
 package com.ht.yygh.common.helper;
 
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.yygh.common.util.HttpUtil;
-import com.atguigu.yygh.common.util.MD5;
+
+import com.ht.yygh.common.HttpUtil;
+import com.ht.yygh.common.MD5;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Date;
@@ -80,14 +81,13 @@ public class HttpRequestHelper {
     public static long getTimestamp() {
         return new Date().getTime();
     }
-
     /**
      * 封装同步请求
      * @param paramMap
      * @param url
      * @return
      */
-    public static JSONObject sendRequest(Map<String, Object> paramMap, String url){
+    public static JSONObject sendRequest(Map<String, Object> paramMap,String url){
         String result = "";
         try {
             //封装post参数

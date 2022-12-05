@@ -8,9 +8,10 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
-        <module>server-gateway</module>
+        <module>common/service-util</module>
+<!--        <module>server-gateway</module>
         <module>service-client</module>
-        <module>hospital-manage</module>
+        <module>hospital-manage</module>-->
         <module>common/common-util</module>
         <module>model</module>
         <module>service</module>

@@ -1,9 +1,10 @@
 package com.ht.yygh.common.gateway;
 
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.yygh.common.helper.JwtHelper;
-import com.atguigu.yygh.common.result.Result;
-import com.atguigu.yygh.common.result.ResultCodeEnum;
+
+import com.ht.yygh.common.helper.JwtHelper;
+import com.ht.yygh.common.result.Result;
+import com.ht.yygh.common.result.ResultCodeEnum;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
@@ -15,6 +16,7 @@ import org.springframework.util.AntPathMatcher;
 import org.springframework.util.StringUtils;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
+
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
