@@ -1,9 +1,8 @@
 package com.atguigu.yygh.gateway.filter;
 
 import com.alibaba.fastjson.JSONObject;
-import com.atguigu.yygh.common.helper.JwtHelper;
-import com.atguigu.yygh.common.result.Result;
-import com.atguigu.yygh.common.result.ResultCodeEnum;
+import com.ht.yygh.common.helper.JwtHelper;
+import com.ht.yygh.common.result.ResultCodeEnum;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
